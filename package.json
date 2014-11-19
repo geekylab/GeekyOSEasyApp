@@ -1,16 +1,17 @@
 {
-    "name": "GeekyOSEasyApp",
-    "version": "0.0.1",
-    "main": "http://menu.geekylab.net:8080/app/login",
-    "node-remote": "*.geekylab.net",
-    "dependencies": {
-        "request": "~2.47.0",
-        "unzip": "~0.1.11"
-    },
-    "window": {
-        "toolbar": true,
-        "frame": true,
-        "width": 1024,
-        "height": 540
-    }
+  "name": "GeekyOSEasyApp",
+  "version": "0.0.1",
+  "main": "http://menu.geekylab.net:8080/app/login",
+  "node-remote": "*.geekylab.net",
+  "dependencies": {
+    "request": "~2.47.0",
+    "unzip": "~0.1.11",
+    "node-fs": "~0.1.7"
+  },
+  "window": {
+    "toolbar": true,
+    "frame": true,
+    "width": 1024,
+    "height": 540
+  }
 }
